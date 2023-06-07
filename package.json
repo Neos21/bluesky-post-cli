@@ -1,0 +1,26 @@
+{
+  "name": "bluesky-post-cli",
+  "description": "Bluesky Post CLI",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/bluesky-post-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/bluesky-post-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/bluesky-post-cli/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "@atproto/api": "0.3.10",
+    "ts-node": "10.9.1"
+  }
+}
